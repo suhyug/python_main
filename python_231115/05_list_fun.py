@@ -13,6 +13,7 @@ print(pl)
 # print(pl)
 print(pl.pop())
 #반환값이 있다는 것 , 커서 올려보면 -> any
+#맨마지막부터 빼냄
 
 print(pl.pop(1))
 print(pl)
@@ -32,11 +33,12 @@ print(pl)
 #리스트 정렬하기
 pl.sort()
 print(pl)
+#['수능', '수요일']
 
 #리스트 뒤집기
-
 pl.reverse()
 print(pl)
+# ['수요일', '수능']
 
 special_lec = ["git", "uxui", "취업특강", "포트폴리오"]
 pl.extend(special_lec)
@@ -44,12 +46,14 @@ print(pl)
 
 #위치 반환(동일한 요소가 중복된 경우, 앞에 있는 인덱스를 반환/ 리스트에 없으면 오류 ->이럴 땐 if문으로 사용)
 print(pl.index("포트폴리오"))
+#5
 
 #같은 값 개수 세기 "수능"이 리스트에 하나 있음..
 print(pl.count("수능"))
 print(pl)
+#1
 
-#요소의 개수 총 7개 요소가 있다..
+#요소의 개수 총 6개 요소가 있다..
 print(len(pl))
 
 #리스트 반복
@@ -58,3 +62,4 @@ for i in pl:
     
 for i in range(len(pl)):    
     print(i)
+    #0부터 5까지 인덱스 뽑음

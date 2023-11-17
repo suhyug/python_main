@@ -8,6 +8,7 @@ practice_list = [1, 2 , 3, "파이", "apple", ["가", "나", "다", "라"]]
 # practice_list[2] = 4, 8
 # print(practice_list)
 #(4,8)로 들어가고..
+#괄호를 생략하면 튜플로 인식한다..
 
 # practice_list[2] = [4, 8]
 # print(practice_list)
@@ -15,11 +16,11 @@ practice_list = [1, 2 , 3, "파이", "apple", ["가", "나", "다", "라"]]
 
 practice_list[2:3] = 4, 8
 print(practice_list)
-
-# practice_list[2:3] = [4,8]
-# print(practice_list)
+practice_list[2:3] = [4, 8]
+print(practice_list)
 #왜 후자의 방법을 썼을 때 4, 8이 들어가는 방식이 똑같을까? 
 #예를 들어 전자는 숫자일 때 (4,8) / 리스트일 때 [4,8] 이런식으로 들어갔음.
+#튜플이나 리스트형태를 넣고싶으면 인덱싱을 이용 아니면 슬라이싱
 
 #슬라이싱과 인덱싱을 구분해요~!!
 # [1, 2, 4, 8, '파이', 'apple', ['가', '나', '다', '라']]
@@ -49,8 +50,8 @@ print(practice_list)
 #"나", "다" 삭제!
 del practice_list[-1][1:]
 print(practice_list)
-
 #[1, 2, 4, 8, '파이', ['가']]
+
 #"가" 삭제!
 # del practice_list[-1][:]
 #[1, 2, 4, 8, '파이', []]

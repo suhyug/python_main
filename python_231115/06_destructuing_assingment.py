@@ -6,8 +6,9 @@ eight_divisor = [1,2,4,8]
 odd, *even = eight_divisor
 print(odd, even)
 #파이썬에서 사용되는 언패킹 기능 중 하나
-#리스트나 튜플과 같은 iterable 데이터를 각 변수에 나누어 저장
+#언패킹(Unpacking)은 파이썬에서 시퀀스(리스트, 튜플 등)나 이터러블(반복 가능한 객체)에서 요소를 개별 변수로 추출하는 과정
 # 왼쪽부터 순서대로 뽑고, 별은 나머지 모두를 의미하고 list로 반환한다.
+# 1 [2,4,8]
 # odd, two, *even = eight_divisor
 # print(odd, two, even)
 

@@ -1,4 +1,5 @@
 num_list = [1,2,3,4]
+
 #방법1. 기존의 리스트를 이용해 새로운 리스트를 생성 
 even_list = []
 for i in num_list:
@@ -16,3 +17,12 @@ print(even_list)
 #expression: 각 요소에 대한 변환식 또는 동일하게 반환할 표현식입니다.
 #item: iterable에서 가져온 요소를 나타내는 변수입니다.
 #iterable: 반복 가능한 객체(리스트, 튜플 등)입니다.
+
+list1 = [1,2,3]
+list2 = [2,3,4]
+list3 = list1 + list2
+print(list3)
+
+list4 = [1,2,3]
+list5 = list4
+print(list5)
