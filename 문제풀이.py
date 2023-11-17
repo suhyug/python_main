@@ -1,0 +1,1 @@
+"i ate %d apples. i was sick for %s days." 
