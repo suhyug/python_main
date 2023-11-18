@@ -1,4 +1,5 @@
 # 별 찍기 _ for
+#풀었다..ㅠㅠ
 
 star = int(input())
 
@@ -14,5 +15,24 @@ for i in range(1, star + 1):
 #  *****     # " " : 2, s : 5 (2) (5 * 2 - 1) + (-2 * 2) = 5
 #   ***      # " " : 3, s : 3 (3) (5 * 2 - 1) + (-2 * 3) = 3
 #    *       # " " : 4, s : 1 (4) (5 * 2 - 1) + (-2 * 4) = 1
-for i in range(1, star):
-    print(" " * i + "*" * ((2 * star - 1) - 2 * i))
+# for i in range(1, star):
+#     print(" " * i + "*" * ((2 * star - 1) - 2 * i))
+
+for j in range(1,star):
+    print(" " * j + "*" * ((2*star)-(2*j+1)))
+
+#파이썬은 for문 뒤에 식을 쓸 수 없다.
+#for문에 들어간 i식은 꼭 뒤의 식과도 연관이 있어야 한다.
+#range 안에 수식이나 변수를 직접 사용할 수 없다. 즉, 정수값만 받는다.
+#만약, range 안에 식을 쓰고 싶으면 외부에서 값을 계산해서 그 값을 사용해야 한다.
+
+
+# for j in range(input_number):
+#     print(' ' * (input_number - j), end='')
+#end = '' 개행문자\n을 대체한다.. 일반적으로 print하면 출력 내용 뒤 개행을 하는게 법칙, 대신 end를 사용해서 빈문자열로 줄바꿈을 막는다..
+#     print('*' * (2 * j + 1))
+
+# for i in range(input_number-1, 0, -1):
+#     print(' ' * (input_number - i +1 ), end='')
+#     print('*' * (2 * i - 1))
+
