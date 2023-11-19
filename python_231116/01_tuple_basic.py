@@ -4,7 +4,12 @@ print(type(my_tuple))
 
 my_int = (1)
 my_tuple = (1,)
+print(my_int)
+print(type(my_int))
+#<class 'int'>
+#1
 print(my_tuple)
+#(1,)
 print(type(my_tuple))
 
 my_tuple1 = (1, 2, 3)
@@ -22,3 +27,8 @@ print(my_tuple3[1])
 my_tuple4 = (1, 2, 4, 8)
 odd, *even = my_tuple4
 print(odd, even)
+#1 [2,4,8]
+my_list = [1,2,4,8]
+odd2, *even2 = my_list
+print(odd2, even2)
+#1 [2,4,8]

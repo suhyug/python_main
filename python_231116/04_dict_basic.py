@@ -8,4 +8,5 @@ son_dict = {
 }
 
 print(empty_dict1, empty_dict2)
+#{} 반환
 print(son_dict)

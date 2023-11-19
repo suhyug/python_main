@@ -1,3 +1,4 @@
+#더 심플함..
 names = input().split()
 
 names_dict = {}
@@ -11,4 +12,6 @@ for i in names:
         names_dict[i] = 1
 
 print(names_dict)
+#{'김이나':3, '김광석':1, '김광진':1, '유나':1}
 print(names_set)
+#{'김이나'}
