@@ -17,3 +17,7 @@ for _ in range(CASE_NUM):
         print(f"{word1} & {word2} are anagrams.")
     else:
         print(f"{word1} & {word2} are NOT anagrams.")
+
+        #def are_anagrams(str1, str2):
+   # return sorted(str1) == sorted(str2) 
+   #sorted는 리스트에서 사용 가능
