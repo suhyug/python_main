@@ -1,3 +1,5 @@
+#선택 정렬 알고리즘 구현 : 주어진 리스트에서 가장 작은 값을 찾아 맨 앞으로 옮기는 작업을 반복/정렬
+
 def selection_sorted(list):
     for i in range(len(list)-1):
         min = i
