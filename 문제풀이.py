@@ -1,4 +1,7 @@
-for i in range(2,10):
-    for j in range(1,10):
-        print(i*j, end=" ")
-    print("")
+N = int(input())
+M = input()
+number_list = list(map(int,M))
+sum = 0
+for i in number_list:
+    sum += i
+print(sum)
