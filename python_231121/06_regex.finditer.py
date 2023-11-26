@@ -5,7 +5,7 @@ import re
 
 match_iter = re.finditer("[a-z]+", "파이th0n")
 
-print(match_iter)
+print(match_iter) #<callable_iterator object at 0x100721900>
 
 for i in match_iter:
-    print(i.group())
+    print(i.group()) #th n

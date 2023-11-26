@@ -5,7 +5,7 @@ import re
 
 match_list = re.findall("[a-z]+", "파이th0n")
 
-print(match_list)
+print(match_list) #['th', 'n']
 
 for i in match_list:
     print(i)

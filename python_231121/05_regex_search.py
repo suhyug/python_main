@@ -6,6 +6,7 @@ import re
 
 match_obj = re.search('[a-z]+', '파이th0n')
 #search는 문자열 전체를 확인한다..
+#match와 search의 차이!! match는 문자열 처음부터 검색, search는ㄴ 문자열 전체를 검색
 
 print(match_obj) #<re.Match object; span=(2, 4), match='th'>
 print(match_obj.group()) #th
